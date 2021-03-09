@@ -129,3 +129,46 @@ void main()
 }
 
 https://us02web.zoom.us/j/82438187830?pwd=TWQ0RElIajlhMmZSbFFtbHZkOWFMZz09
+
+
+class StringBuffer1
+
+{
+
+      public static void main(String[]args)
+
+        {
+
+              StringBuffer s=new StringBuffer("Ankit");
+
+             s= s.append(" Mandloi");
+
+             System.out.println(s);
+
+           s= s.insert(2,"xyz");
+
+           System.out.println(s);
+
+          }
+
+}class StringBuilder1
+
+{
+
+      public static void main(String[]args)
+
+        {
+
+              StringBuilder s=new StringBuilder("Aman");
+
+             s= s.append(" Verma");
+
+             System.out.println(s);
+
+           s= s.insert(2,"xyz");
+
+           System.out.println(s);
+
+          }
+
+}
